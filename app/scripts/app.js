@@ -1,3 +1,4 @@
+(function() {
 'use strict';
 
 /**
@@ -15,5 +16,8 @@ angular
     'ngResource',
     'ngRoute',
     'ngSanitize',
-    'ngTouch'
+    'ngTouch',
+    'btbVisApp.contribs'
   ]);
+angular.module('btbVisApp.contribs', []);
+})();
