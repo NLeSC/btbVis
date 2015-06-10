@@ -15,6 +15,8 @@
   <!-- build:css(.tmp) styles/main.css -->
   <link rel="stylesheet" href="styles/main.css">
   <!-- endbuild -->
+
+
 </head>
 
 <body ng-app="btbVisApp">
@@ -43,6 +45,7 @@
   <div class="container">
     <!-- plots directive will go here -->
     <btb-contribs></btb-contribs>
+    <nlesc-vega spec="bar.json"></nlesc-vega>
   </div>
 
   <div class="footer">
@@ -59,6 +62,10 @@
   <script src="bower_components/angular-route/angular-route.js"></script>
   <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
   <script src="bower_components/angular-touch/angular-touch.js"></script>
+  <script src="bower_components/webcomponentsjs/webcomponents.js"></script>
+  <!-- <script src="bower_components/polymer/polymer.js"></script> -->
+  <script src="bower_components/d3/d3.js"></script>
+  <script src="bower_components/vega/vega.js"></script>
   <!-- endbower -->
   <!-- endbuild -->
 
@@ -67,6 +74,7 @@
   <script src="scripts/contribs/contribs.directive.js"></script>
   <script src="scripts/contribs/contribs.controller.js"></script>
   <!-- endbuild -->
+  <link rel="import" href="bower_components/nlesc-vega/nlesc-vega.html">
 
 </body>
 </html>
