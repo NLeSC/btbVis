@@ -1,4 +1,4 @@
-FROM btbserver
+FROM mkuzak/btbserver
 
 # RUN mkdir /webapp
 WORKDIR /app
