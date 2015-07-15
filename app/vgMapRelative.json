@@ -1,0 +1,81 @@
+{
+  "width": 400,
+  "height": 200,
+  "data": [
+    {
+      "name": "table",
+      "url": "contribDummy.json",
+      "format": {
+        "type": "json"
+      }
+    },
+    {
+      "name": "countries",
+      "url": "world-110m.json",
+      "format": {
+        "type": "topojson",
+        "feature": "countries"
+      },
+      "transform": [
+        {
+          "type": "geopath",
+          "value": "data",
+          "projection": "mercator",
+          "scale": 100
+        },
+        {
+          "type": "zip",
+          "key": "data.id",
+          "with": "table",
+          "withKey": "data.countryCode",
+          "as": "value",
+          "default": null
+        },
+        {
+          "type": "filter",
+          "test": "d.path!=null && d.value!=null"
+        }
+      ]
+    }
+  ],
+  "scales": [
+    {
+      "name": "color",
+      "type": "linear",
+      "domain": [
+        -1,
+        1
+      ],
+      "range": [
+        "brown",
+        "steelblue"
+      ]
+    }
+  ],
+  "marks": [
+    {
+      "type": "path",
+      "from": {
+        "data": "countries"
+      },
+      "properties": {
+        "enter": {
+          "path": {
+            "field": "path"
+          }
+        },
+        "update": {
+          "fill": {
+            "scale": "color",
+            "field": "value.data.relative"
+          }
+        },
+        "hover": {
+          "fill": {
+            "value": "red"
+          }
+        }
+      }
+    }
+  ]
+}

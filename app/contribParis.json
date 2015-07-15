@@ -1,0 +1,170 @@
+[
+  {
+    "expected": 0.383,
+    "country": "US",
+    "observed": 0.32815616984895984,
+    "relative": -0.09332707625343684,
+    "countryCode": "840"
+  },
+  {
+    "expected": 0.132,
+    "country": "UK",
+    "observed": 0.19535480193787405,
+    "relative": 0.3614704595185996,
+    "countryCode": "826"
+  },
+  {
+    "expected": 0.069,
+    "country": "IN",
+    "observed": 0.021231119977201483,
+    "relative": -0.6743938043041205,
+    "countryCode": "356"
+  },
+  {
+    "expected": 0.054,
+    "country": "CA",
+    "observed": 0.06896551724137931,
+    "relative": 0.2600661157024794,
+    "countryCode": "124"
+  },
+  {
+    "expected": 0.036,
+    "country": "AU",
+    "observed": 0.035480193787403816,
+    "relative": 0.04115662650602403,
+    "countryCode": "036"
+  },
+  {
+    "expected": 0.026,
+    "country": "PH",
+    "observed": 0.002279851809632374,
+    "relative": -0.9072097986452631,
+    "countryCode": "608"
+  },
+  {
+    "expected": 0.015,
+    "country": "DE",
+    "observed": 0.016243944143630663,
+    "relative": 0.12736842105263146,
+    "countryCode": "276"
+  },
+  {
+    "expected": 0.011,
+    "country": "BR",
+    "observed": 0.010686805357651753,
+    "relative": 0.027306666666666812,
+    "countryCode": "076"
+  },
+  {
+    "expected": 0.01,
+    "country": "IT",
+    "observed": 0.005557138785978911,
+    "relative": -0.41194209891435474,
+    "countryCode": "380"
+  },
+  {
+    "expected": 0.01,
+    "country": "IE",
+    "observed": 0.009546879452835565,
+    "relative": 0.010149253731343233,
+    "countryCode": "372"
+  },
+  {
+    "expected": 0.009,
+    "country": "PK",
+    "observed": 0.001139925904816187,
+    "relative": -0.8659697091542689,
+    "countryCode": "586"
+  },
+  {
+    "expected": 0.008,
+    "country": "FR",
+    "observed": 0.2067540609860359,
+    "relative": 0.963434872501723,
+    "countryCode": "250"
+  },
+  {
+    "expected": 0.008,
+    "country": "ID",
+    "observed": 0.0014249073810202336,
+    "relative": -0.8115199034981906,
+    "countryCode": "360"
+  },
+  {
+    "expected": 0.008,
+    "country": "NL",
+    "observed": 0.011399259048161869,
+    "relative": 0.3368,
+    "countryCode": "528"
+  },
+  {
+    "expected": 0.008,
+    "country": "MY",
+    "observed": 0.0008549444286121402,
+    "relative": -0.8869119420989143,
+    "countryCode": "458"
+  },
+  {
+    "expected": 0.007,
+    "country": "IR",
+    "observed": 0.0008549444286121402,
+    "relative": -0.8707565052559021,
+    "countryCode": "364"
+  },
+  {
+    "expected": 0.007,
+    "country": "ES",
+    "observed": 0.004417212881162725,
+    "relative": -0.3322419438221609,
+    "countryCode": "724"
+  },
+  {
+    "expected": 0.007,
+    "country": "CN",
+    "observed": 0.003134796238244514,
+    "relative": -0.5261071859383077,
+    "countryCode": "156"
+  },
+  {
+    "expected": 0.007,
+    "country": "NZ",
+    "observed": 0.005557138785978911,
+    "relative": -0.15991728416336382,
+    "countryCode": "554"
+  },
+  {
+    "expected": 0.005,
+    "country": "GR",
+    "observed": 0.0018523795953263038,
+    "relative": -0.6079613992762365,
+    "countryCode": "300"
+  },
+  {
+    "expected": 0.005,
+    "country": "RU",
+    "observed": 0.005129666571672842,
+    "relative": 0.0788888888888889,
+    "countryCode": "643"
+  },
+  {
+    "expected": 0.005,
+    "country": "TR",
+    "observed": 0.002279851809632374,
+    "relative": -0.5174909529553678,
+    "countryCode": "792"
+  },
+  {
+    "expected": 0.005,
+    "country": "MX",
+    "observed": 0.0024223425477343974,
+    "relative": -0.4873341375150785,
+    "countryCode": "484"
+  },
+  {
+    "expected": 0.005,
+    "country": "SE",
+    "observed": 0.004274722143060701,
+    "relative": -0.09529553679131475,
+    "countryCode": "752"
+  }
+]

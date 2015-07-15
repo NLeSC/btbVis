@@ -15,6 +15,9 @@ bower install
 grunt serve
 ```
 
+We assume you have a btbServer running on port 5000
+
+
 ## Build & development
 
 Run `grunt` for building and `grunt serve` for preview.

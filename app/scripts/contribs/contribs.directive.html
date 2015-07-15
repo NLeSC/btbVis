@@ -1,1 +1,15 @@
-<!-- template goes here.. -->
+<h1>{{ loadedData }}</h1>
+<table>
+  <tr>
+    <td><nlesc-vega specfile="vgBarObserved.json" class="polyelement"></nlesc-vega></td>
+    <td><nlesc-vega specfile="vgBarRelative.json" class="polyelement"></nlesc-vega></td>
+  </tr>
+<tr>
+  <td colspan="2"><nlesc-vega specfile="vgMapRelative.json" class="polyelement"></nlesc-vega></td>
+</tr>
+</table>
+
+<button ng-click="getData('contribLondon.json')">Load data (London data)</button><br>
+<button ng-click="getData('contribParis.json')">Load data (Paris data)</button><br>
+<input ng-model="query" />
+<button ng-click="doQuery()">Load data</button>
